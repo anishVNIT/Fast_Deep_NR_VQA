@@ -1,5 +1,5 @@
 # Fast_Deep_NR_VQA
-An End-to-End Fast No-Reference Video Quality Predictor with Spatiotemporal Feature Fusion
+## An End-to-End Fast No-Reference Video Quality Predictor with Spatiotemporal Feature Fusion
 
 This work proposes a reliable and efficient end-to-end No-
 Reference Video Quality Assessment (NR-VQA) model that fuses deep
@@ -13,6 +13,8 @@ features from short video clips. Further, extracted features
 are passed through a regressor head that consists of a Gated Recurrent
 Unit (GRU) followed by a Fully Connected (FC) layer.
 
-For feature extraction use i3d_resnet_feature_extraction_main.py
+![DEEP_VQA_DIAGRAM](https://user-images.githubusercontent.com/43271800/210950324-825de68f-6ff9-4767-999d-5cb35619ebad.jpg)
 
-For training and testing the model use Score_Prediction_I3D_ResNet.py
+### For feature extraction use i3d_resnet_feature_extraction_main.py
+
+### For training and testing the model use Score_Prediction_I3D_ResNet.py
